@@ -1,0 +1,13 @@
+body{
+	margin: 0px;
+}
+.main-content{
+	display: flex;
+	justify-content: center;
+	background: blue;
+	height: 100vh;
+}
+.content{
+	width: 900px;
+	background: white;
+}
