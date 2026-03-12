@@ -1,6 +1,43 @@
-h1{
-	color: green;
+body{
+	background: ;
+	margin: 0;
 }
-p{
-	color: red;
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #0c2635;
+	height: 150px;
+}
+.logo{
+	margin-left: -250px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.menu{
+	display: flex;
+	align-items: center;
+	background-color: #dcdcdc;
+	border: 1px solid black;
+	border-radius: 7px;
+	width: 60%;
+	margin-bottom: -35px;
+	padding: 1.5px;
+}
+.menu a{
+	text-decoration: none;
+	color: #092f44;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.menu .active{
+	background-color: #b7c2c8;
+	padding: 15px;
+}
+.menu a:hover{
+	background-color: #b7c2c8;
 }
