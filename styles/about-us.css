@@ -1,13 +1,17 @@
 body{
 	margin: 0px;
+	/**height: 100vh;**/
+	background-image: url("../images/bg-content.gif");
 }
 .main-content{
 	display: flex;
 	justify-content: center;
-	background: blue;
-	height: 100vh;
 }
 .content{
 	width: 900px;
 	background: white;
+}
+.last-row p{
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
