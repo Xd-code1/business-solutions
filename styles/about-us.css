@@ -9,9 +9,11 @@ body{
 	background-image: url("../images/bg-content.gif");
 }
 .content{
-	width: 900px;
+	width: 950px;
 	background: white;
-	padding: 10px 16px 300px 16px ;
+	padding: 10px 16px 300px 16px;
+	margin-bottom: 25px;
+	border-radius: 5px;
 }
 .row-1 h2 ,.row-2 h2 ,.row-3 h2{
 	color :#0e2934;
