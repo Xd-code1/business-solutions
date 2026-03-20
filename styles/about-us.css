@@ -1,7 +1,10 @@
-/*.main-content{
+body{
+	background-image: url("../images/bg-content.gif");
+}
+.main-content{
     display: flex;
     justify-content: center;
-    background-image: url("../images/bg-content.gif");
+    
 }
 
 .content{
@@ -53,4 +56,4 @@ p a{
 
 .last-row p a{
     color:  #646c6f;
-}*/
+}
