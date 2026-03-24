@@ -1,9 +1,22 @@
-.footer{
+footer{
 	background-color: #0c2635;
 }
-.footer .title, .footer .title2{
+footer .title, footer .title2{
 	color: #456f7f;
 }
-.footer-p{
+.info{
+	display: flex;
+	justify-content: center;
+}
+.info .container{
+	display: flex;
+	width: 950px;
+	justify-content: space-between;
+}
+.Adress{
 	color: #456f7f;
+}
+.copy-rights{
+	display: flex;
+	justify-content: center;
 }
