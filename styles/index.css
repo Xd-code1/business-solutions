@@ -1,15 +1,18 @@
 .content{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/*align-items: center;
 	width: 100%;
-	padding: 0;
+	padding: 0;*/
+}
+.content .container{
+	display: flex;
+	width: 1000px;
+	border: 3px dotted red;
+	padding-left: -50px;
 }
 .content1{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	width: 30%;
 	/*margin-right: -50px;*/
 }
 .content1 h2{
@@ -17,29 +20,30 @@
 	font-size: 35px;
 }
 .content1 .p{
-	width: 40%;
 	line-height: 35px;
 	margin: 0;
 }
 .content2 {
 	display: flex;
+	width: 70%;
 	/*margin-left: -100px;*/
 }
+
 .widgets{
 	display: flex;
 	justify-content: center;
-	margin-top: -60px;
+	margin-top: -43px;
 }
 .widget1{
 	display: flex;
 	background-color: #d3e8f5;
-	width: 25%;
+	width: 20%;
 	padding: 20px;
 }
 .widget2, .widget3{
 	display: flex;
 	background-color: #dcdcdc;
-	width: 25%;
+	width: 20%;
 	padding: 20px;
 }
 .widget1 div, .widget2 div, .widget3 div{
