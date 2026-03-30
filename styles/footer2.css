@@ -13,6 +13,9 @@ footer .title, footer .title2{
 	width: 950px;
 	justify-content: space-between;
 }
+.info .container .column2{
+	display: none;
+}
 .info h3{
 	text-transform: uppercase;
 	color: #456f7f;
@@ -35,3 +38,4 @@ footer .title, footer .title2{
 }
 .copy-rights div{
 	color: #456f7f;
+}
