@@ -16,7 +16,7 @@ footer .title, footer .title2{
 .info h3{
 	text-transform: uppercase;
 	color: #456f7f;
-	font-size: 14px;
+	font-size: 12px;
 }
 .Adress{
 	color: #456f7f;
@@ -24,14 +24,19 @@ footer .title, footer .title2{
 .Adress p{
 	margin: 3px;
 }
-.info .footer-icons div{
+/* .info .footer-icons{
 	display: flex;
-	justify-content: center;
 	background: red;
 }
+.info .footer-icons div {
+	width: 40px;
+	border: 1px solid green;
+} */
 .copy-rights{
 	display: flex;
 	justify-content: center;
 }
 .copy-rights div{
 	color: #456f7f;
+	margin-top: 20px;
+}
