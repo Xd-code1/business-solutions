@@ -6,10 +6,10 @@ body{
 	display: flex;
 	justify-content: center;
 	background-color: #0c2635;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 .header .container{
-	width: 950px;
+	width: 1010px;
 }
 .logo{
 	margin-top: 30px;
@@ -19,18 +19,17 @@ body{
 	display: flex;
 	align-items: center;
 	background-color: #dcdcdc;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 7px;
-	/*width: 60%;*/
 	margin-bottom: -35px;
-	padding: 1.5px;
+	/*padding: 1.5px;*/
 }
 .menu a{
 	text-decoration: none;
 	color: #092f44;
 	font-size: 20px;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
