@@ -1,0 +1,41 @@
+footer{
+	background-color: #0c2635;
+}
+footer .title, footer .title2{
+	color: #456f7f;
+}
+.info{
+	display: flex;
+	justify-content: center;
+}
+.info .container{
+	display: flex;
+	width: 950px;
+	justify-content: space-between;
+}
+.info .container .column2{
+	display: none;
+}
+.info h3{
+	text-transform: uppercase;
+	color: #456f7f;
+	font-size: 14px;
+}
+.Adress{
+	color: #456f7f;
+}
+.Adress p{
+	margin: 3px;
+}
+.info .footer-icons div{
+	display: flex;
+	justify-content: center;
+	background: red;
+}
+.copy-rights{
+	display: flex;
+	justify-content: center;
+}
+.copy-rights div{
+	color: #456f7f;
+}
