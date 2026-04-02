@@ -52,3 +52,17 @@
 	color: grey;
 	font-size: 17px;
 }
+.blog{
+	background-image: url("../images/bg-content.gif");
+	display: flex;
+	justify-content: center;
+}
+.column1 h3{
+	color: white;
+}
+.blog-container .column1 p{
+	color: white;
+}
+.blog-container .column1 span, .blog-container .column1 a{
+	color: #416c80;
+}
