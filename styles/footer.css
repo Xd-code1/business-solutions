@@ -13,10 +13,30 @@ footer .title, footer .title2{
 	width: 950px;
 	justify-content: space-between;
 }
+.info h3{
+	text-transform: uppercase;
+	color: #456f7f;
+	font-size: 12px;
+}
 .Adress{
 	color: #456f7f;
 }
+.Adress p{
+	margin: 3px;
+}
+/* .info .footer-icons{
+	display: flex;
+	background: red;
+}
+.info .footer-icons div {
+	width: 40px;
+	border: 1px solid green;
+} */
 .copy-rights{
 	display: flex;
 	justify-content: center;
+}
+.copy-rights div{
+	color: #456f7f;
+	margin-top: 20px;
 }
