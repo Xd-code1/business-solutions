@@ -24,22 +24,34 @@ footer .title, footer .title2{
 .Adress p{
 	margin: 3px;
 }
-/* .info .footer-icons{
+ .info .footer-icons{
 	display: flex;
-	background: red;
 }
 .info .footer-icons div {
-	width: 40px;
-	border: 1px solid green;
-} */
+	/**width: 40px;**/
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+    padding-bottom: 20px;	
+	background: #515c78;
+	border-radius: 50%;
+	/**display: flex;
+	justify-content: center;**/
+	margin-left: 11px;
+	margin-right: 11px;
+}
+.info .footer-icons div:hover{
+	background: #8296bf;
+}
+.info .footer-icons div .fa{
+	font-size: 30px;
+   /** color: #456f7f;**/	
+}
 .copy-rights{
 	display: flex;
 	justify-content: center;
 }
 .copy-rights div{
 	color: #456f7f;
-<<<<<<< HEAD
-=======
-	margin-top: 20px;
->>>>>>> 3797b7b1d066c90844934e5824cf7f8663ee336b
+	margin-top: 30px;
 }
