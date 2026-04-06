@@ -35,12 +35,12 @@
 .widget1{
 	display: flex;
 	background-color: #d3e8f5;
-	padding: 20px;
+	padding: 15px;
 }
 .widget2, .widget3{
 	display: flex;
 	background-color: #dcdcdc;
-	padding: 20px;
+	padding: 15px;
 }
 .widget1 div, .widget2 div, .widget3 div{
 	margin-right: 10px;
