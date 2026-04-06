@@ -35,12 +35,22 @@
 .widget1{
 	display: flex;
 	background-color: #d3e8f5;
+<<<<<<< HEAD
 	padding: 15px;
+=======
+	padding: 10px;
+	/* padding-right: 10px; */
+>>>>>>> 3797b7b1d066c90844934e5824cf7f8663ee336b
 }
 .widget2, .widget3{
 	display: flex;
 	background-color: #dcdcdc;
+<<<<<<< HEAD
 	padding: 15px;
+=======
+	padding: 10px;
+	/* padding-right: 10px; */
+>>>>>>> 3797b7b1d066c90844934e5824cf7f8663ee336b
 }
 .widget1 div, .widget2 div, .widget3 div{
 	margin-right: 10px;
@@ -49,4 +59,18 @@
 	text-decoration: none;
 	color: grey;
 	font-size: 17px;
+}
+.blog{
+	background-image: url("../images/bg-content.gif");
+	display: flex;
+	justify-content: center;
+}
+.column1 h3{
+	color: white;
+}
+.blog-container .column1 p{
+	color: white;
+}
+.blog-container .column1 span, .blog-container .column1 a{
+	color: #416c80;
 }
