@@ -28,3 +28,28 @@ body{
 	color:  #646c6f;
 	font-size: 16px;
 }
+.row2{
+	display: flex;
+}
+.row2 h4{
+	margin-bottom: 0px;
+	color: #545151;
+}
+.row2 p{
+	margin-top: 2px;
+	color:  #646c6f;
+	font-size: 14px;
+	line-height: 20px;
+}
+.row2 .column2  li:nth-child(2){
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.row3{
+	margin-top: 20px;
+}
+.row3 p{
+	font-size: 15px;
+	line-height: 28px;
+	color:  #646c6f;
+}
