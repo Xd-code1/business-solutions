@@ -66,3 +66,36 @@
 .blog-container .column1 span, .blog-container .column1 a{
 	color: #416c80;
 }
+.blog-container .column2 h3{
+	color: white;
+}
+.blog-container .column2 .content1{
+	display: flex;
+}
+.blog-container .column2 .content1 .content1-container1, .blog-container .column2 .content1 .content1-container2{
+	width: 600px;
+	
+}
+.blog-container .column2 .content1 .content1-container1{
+	margin-right: 20px;
+}
+.blog-container .column2 .img img, .blog-container .column2 .img2 img{
+	width: 100%;
+}
+.blog-container .column2 .img, .blog-container .column2 .img2{
+	display: flex;
+}
+.blog-container .column2 .img h4, .blog-container .column2 .img2 h4{
+	color: #fff;
+}
+.blog-container .column2 .img h4:hover, .blog-container .column2 .img2 h4:hover{
+	color: #a1c2d0;
+	cursor: pointer;
+}
+.blog-container .column2 .p {
+	width: 100%;
+}
+.blog-container .column2 .p p{
+	line-height: 25px;
+	color: #aeb4b4;
+}
