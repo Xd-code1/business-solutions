@@ -35,14 +35,22 @@
 .widget1{
 	display: flex;
 	background-color: #d3e8f5;
+<<<<<<< HEAD
+	padding: 15px;
+=======
 	padding: 10px;
 	/* padding-right: 10px; */
+>>>>>>> 3797b7b1d066c90844934e5824cf7f8663ee336b
 }
 .widget2, .widget3{
 	display: flex;
 	background-color: #dcdcdc;
+<<<<<<< HEAD
+	padding: 15px;
+=======
 	padding: 10px;
 	/* padding-right: 10px; */
+>>>>>>> 3797b7b1d066c90844934e5824cf7f8663ee336b
 }
 .widget1 div, .widget2 div, .widget3 div{
 	margin-right: 10px;

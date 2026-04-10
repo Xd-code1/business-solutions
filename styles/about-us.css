@@ -8,11 +8,12 @@ body{
 }
 
 .content{
-    width: 950px;
+    width: 970px;
     background: white;
     padding: 10px 16px 300px 16px;
     margin-bottom: 25px;
     border-radius: 5px;
+	margin-top: 25px;
 }
 
 .row-1 h2 ,.row-2 h2 ,.row-3 h2{
