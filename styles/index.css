@@ -68,7 +68,12 @@
 .column1 h3{
 	color: white;
 }
-.blog .container .column1 p, .blog .container .column2 p{
+.blog .container .column1 p{
+	color: white;
+	line-height: 25px;
+	margin-bottom: 0px; 
+}
+.blog .container .column2 p{
 	color: #aeb4b4;
 }
 .blog .container .column1 span, .blog .container .column1 a{
@@ -85,6 +90,7 @@
 	padding-right: 12px;
 	margin-left: 6px;
 	text-decoration: none;
+	font-size: 14px;
 }
 .blog .column2 {
 	background-color: #02354d;
