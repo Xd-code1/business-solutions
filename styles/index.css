@@ -74,6 +74,18 @@
 .blog .container .column1 span, .blog .container .column1 a{
 	color: #416c80;
 }
+.blog .container .column1 a.num {
+	background-image: url("../images/bg-comment.gif");
+	background-repeat: no-repeat;
+	color: #fffffb;
+	height: 20px;
+	width: 20px;
+	padding-bottom: 1px;
+	padding-left: 6px;
+	padding-right: 12px;
+	margin-left: 6px;
+	text-decoration: none;
+}
 .blog .column2 {
 	background-color: #02354d;
 	padding: 20px;
