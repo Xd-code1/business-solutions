@@ -21,10 +21,8 @@ body{
 	display: flex;
 	align-items: center;
 	background-color: #dcdcdc;
-	/*border: 1px solid black;*/
 	border-radius: 7px;
 	margin-bottom: -25px;
-	/* padding: 1.5px; */
 }
 .menu a{
 	text-decoration: none;
