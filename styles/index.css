@@ -35,19 +35,18 @@
 .widget1{
 	display: flex;
 	background-color: #d3e8f5;
-	padding: 15px;
-	padding: 10px;
-	/* padding-right: 10px; */
+	padding: 15px 0px 10px 15px;
 }
 .widget2, .widget3{
 	display: flex;
 	background-color: #dcdcdc;
-	padding: 15px;
-	padding: 10px;
-	/* padding-right: 10px; */
+	padding: 15px 0px 10px 15px;
 }
 .widget1 div, .widget2 div, .widget3 div{
 	margin-right: 10px;
+}
+.widget1 div p, .widget2 div p, .widget3 div p {
+	margin-top: 5px;
 }
 .widget1 a, .widget2 a, .widget3 a{
 	text-decoration: none;
@@ -71,7 +70,12 @@
 .blog .container .column1 p{
 	color: white;
 	line-height: 25px;
-	margin-bottom: 0px; 
+	margin-bottom: 0px;
+	font-size: 14px; 
+}
+.blog .container .column1 div div {
+	font-size: 12px;
+	margin-bottom: 20px;
 }
 .blog .container .column2 p{
 	color: #aeb4b4;
