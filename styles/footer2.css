@@ -23,6 +23,7 @@ footer .title, footer .title2{
 }
 .Adress{
 	color: #456f7f;
+	padding-bottom: 80px;
 }
 .Adress p{
 	margin: 3px;
@@ -38,4 +39,5 @@ footer .title, footer .title2{
 }
 .copy-rights div{
 	color: #456f7f;
+	padding-bottom: 70px;
 }
