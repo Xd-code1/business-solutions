@@ -23,25 +23,28 @@ footer .title, footer .title2{
 }
 .Adress p{
 	margin: 3px;
+	font-size: 14px;
 }
  .info .footer-icons{
 	display: flex;
 }
-.info .footer-icons div {
-	/**width: 40px;**/
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-    padding-bottom: 20px;	
+.info .footer-icons > div {
+	width: 60px;
+	height: 60px;
 	background: #515c78;
 	border-radius: 50%;
-	/**display: flex;
-	justify-content: center;**/
 	margin-left: 11px;
 	margin-right: 11px;
 }
-.info .footer-icons div:hover{
+.info .footer-icons div div {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.info .footer-icons > div:hover{
 	background: #8296bf;
+	cursor: pointer;
 }
 .info .footer-icons div .fa{
 	font-size: 30px;
@@ -54,5 +57,6 @@ footer .title, footer .title2{
 .copy-rights div{
 	color: #456f7f;
 	margin-top: 30px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
+	font-size: 13px;
 }
