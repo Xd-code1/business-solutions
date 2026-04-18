@@ -26,12 +26,15 @@ footer .title, footer .title2{
 	padding-bottom: 80px;
 }
 .Adress p{
-	margin: 3px;
+	margin: 7px 0px;
+	font-size: 14px;
 }
-.info .footer-icons div{
-	display: flex;
-	justify-content: center;
-	background: red;
+.Adress p span:first-child {
+	display: inline-block;
+	width: 70px;
+}
+.Adress p span:last-child {
+	padding-left: 8px;
 }
 .copy-rights{
 	display: flex;
@@ -39,5 +42,6 @@ footer .title, footer .title2{
 }
 .copy-rights div{
 	color: #456f7f;
-	padding-bottom: 70px;
+	padding-bottom: 40px;
+	font-size: 13px;
 }
