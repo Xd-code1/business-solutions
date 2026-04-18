@@ -5,7 +5,6 @@
 .content .container{
 	display: flex;
 	width: 1000px;
-	padding-left: -50px;
 }
 .content1{
 	width: 25%;
@@ -24,6 +23,7 @@
 .content2 {
 	display: flex;
 	width: 70%;
+	margin-bottom: 25px;
 }
 .widgets-container{
 	display: flex;
@@ -32,8 +32,9 @@
 .widgets{
 	display: flex;
 	justify-content: center;
-	margin-top: -43px;
-	width: 1010px;
+	margin-top: -58px;
+	width: 999px;
+	z-index: 100;
 }
 .widget1{
 	display: flex;
@@ -67,14 +68,19 @@
 
 .blog{
 	background-image: url("../images/bg-content.gif");
+}
+.blog #container-blog{
 	display: flex;
 	justify-content: center;
 }
 .blog .container{
 	display: flex;
 	width: 950px;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-bottom: 30px;
+}
+.blog .container .column1 {
+	margin-right: 30px;
 }
 .column1 h3{
 	color: white;
@@ -116,11 +122,8 @@
 .blog .column2 .articles{
 	display: flex;
 }
-.blog .column2 .articles .column1{
-	padding-right: 10px;
-}
-.blog .column2 .articles .article2{
-	margin-top: -20px;
+.blog .column2 .articles .col1{
+	padding-right: 15px;
 }
 .blog .container .column2 h3{
 	color: white;
@@ -128,15 +131,8 @@
 .blog .container .column2 .content1{
 	display: flex;
 }
-.blog .container .column2 .content1 .content1-container1, .blog .container .column2 .content1 .content1-container2{
-	/*width: 600px;*/
-	
-}
 .blog .container .column2 .content1 .content1-container1{
 	margin-right: 20px;
-}
-.blog .container .column2 .img img, .blog .container .column2 .img2 img{
-	/*width: 100%;*/
 }
 .blog .container .column2 .img, .blog .container .column2 .img2{
 	display: flex;
@@ -149,9 +145,6 @@
 .blog .container .column2 .img h4:hover, .blog .container .column2 .img2 h4:hover{
 	color: #a1c2d0;
 	cursor: pointer;
-}
-.blog .container .column2 .p {
-	/*width: 100%;*/
 }
 .blog .container .column2 .p p{
 	line-height: 25px;

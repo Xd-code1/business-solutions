@@ -8,10 +8,10 @@ body{
 	display: flex;
 	justify-content: center;
 	background-color: #0c2635;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 .header .container{
-	width: 1010px;
+	width: 1000px;
 }
 .logo{
 	margin-top: 30px;
