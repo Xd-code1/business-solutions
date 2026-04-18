@@ -116,7 +116,7 @@
 }
 .blog .column2 {
 	background-color: #02354d;
-	padding: 20px;
+	padding: 10px 20px;
 	border-radius: 5px;
 }
 .blog .column2 .articles{
@@ -127,6 +127,8 @@
 }
 .blog .container .column2 h3{
 	color: white;
+	margin-top: 0px;
+	font-size: 18px;
 }
 .blog .container .column2 .content1{
 	display: flex;
@@ -145,6 +147,10 @@
 .blog .container .column2 .img h4:hover, .blog .container .column2 .img2 h4:hover{
 	color: #a1c2d0;
 	cursor: pointer;
+}
+.blog .container .column2 .articles p {
+	font-size: 14px;
+	line-height: 20px;
 }
 .blog .container .column2 .p p{
 	line-height: 25px;
