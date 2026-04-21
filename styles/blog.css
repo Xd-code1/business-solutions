@@ -14,6 +14,11 @@ body{
     margin-bottom: 25px;
     border-radius: 5px;
 	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.column1{
+	width: 65%;
 }
 .column1 h3{
 	color :#0e2934;
@@ -26,14 +31,42 @@ body{
 	margin-top: 2px;
 }
 .column1 #make-right{
-	padding-bottom: 45px;
+	padding-bottom: 12px;
 }
 .column1 p{
 	color:  #646c6f;
 	font-size: 14px;
 	line-height: 30px;
+	padding-bottom: 11px;	
 }
 .column1 p a{
 	color:  #646c6f;
-	font-size: 14px;
+	font-size: 13px;
+}
+.column2{
+	width: 20%;
+}
+.column2 h4{
+	color: #0e2934;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+.column2 ul{
+	margin-top: 2px;
+	padding-left: 12px;
+}
+.column2 ul li{
+	padding-bottom: 12px;
+	color: #646c6f;
+}
+
+.column2 ul li a{
+	color: #646c6f;
+	text-decoration: none;
+	font-size: 15px;
+	
+}
+.column2 ul li a:hover{
+	color: #566756;
 }
