@@ -25,6 +25,13 @@ footer .title, footer .title2{
 	margin: 3px;
 	font-size: 14px;
 }
+.Adress p span:first-child {
+	display: inline-block;
+	width: 70px;
+}
+.Adress p span:last-child {
+	padding-left: 8px;
+}
  .info .footer-icons{
 	display: flex;
 }
