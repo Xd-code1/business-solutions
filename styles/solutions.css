@@ -34,7 +34,6 @@ body{
 }
 .row2 {
 	display: flex;
-	/**margin-top: 2px;**/
 }
 .row2 ul{
 	margin-top: 0px;
