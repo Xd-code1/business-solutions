@@ -69,5 +69,21 @@ body{
 	
 }
 .column2 ul li a:hover{
-	color: #566756;
+	color: #292828;
+}
+.column2 .archives-container h4{
+	margin-bottom: 10px;
+}
+.column2 .archived{
+	display: flex;
+	width: 150px;
+}
+
+.column2 .archived div{
+	color: #646c6f; 
+	margin-bottom: 11px;
+}
+.column2 .archived div span:hover{
+	color: #292828;
+	cursor: pointer;
 }
