@@ -1,3 +1,4 @@
+/* Computer */
 body{
 	background-image: url("../images/bg-content.gif");
 	font-family: Arial, Helvetica, sans-serif;
@@ -70,4 +71,36 @@ body{
 }
 .column2 ul li a:hover{
 	color: #566756;
+}
+
+
+
+/* css media query */
+/* media type */
+/* media feature 499px */
+/* 1001px */
+/* laptop, tablet */
+/* mobile first approach */
+
+
+/* tablet */
+@media screen and (max-width: 992px) {
+	.column1 {
+		background-color: #0e2934;
+		font-size: 14px;
+	}
+	.column2 ul {
+		margin-top: 0px;
+		padding-left: 12px;
+	}
+}
+/* Mobile Phone */
+@media screen and (max-width: 700px) {
+	.column1 {
+		background-color: red;
+		font-size: 18px;
+	}
+	.column2 ul {
+		padding-left: 5px;
+	}
 }
