@@ -93,7 +93,7 @@ body{
 
 /* css media query */
 /* media type */
-/* media feature 499px */
+/* media feature */
 /* 1001px */
 /* laptop, tablet */
 /* mobile first approach */
@@ -110,6 +110,7 @@ body{
 		padding-left: 12px;
 	}
 }
+
 /* Mobile Phone */
 @media screen and (max-width: 700px) {
 	.column1 {
